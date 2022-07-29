@@ -1,0 +1,45 @@
+#Div1{ 
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 30rem;
+    height: 30rem;
+    align-items: flex-end;
+}
+
+#Div2{ 
+    display: flex;
+    flex-direction:row-reverse;
+    border: solid;
+    width: 30rem;
+    height: 30rem;
+    align-items: center;
+}
+
+#Div3{ 
+    display: flex;
+    border: solid;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0px;
+    width: 10rem;
+    height: 10rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde{
+    background-color: green;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
